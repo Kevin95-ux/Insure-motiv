@@ -30,6 +30,20 @@ EXT = {"font/woff2": ".woff2", "font/woff": ".woff", "image/webp": ".webp",
        "image/png": ".png", "image/jpeg": ".jpg", "image/svg+xml": ".svg",
        "text/javascript": ".js", "application/javascript": ".js", "text/css": ".css"}
 
+# Google Analytics 4. Injected here rather than edited into index.html,
+# which is generated - a hand-edit would be lost on the next rebuild.
+GA_ID = "G-0TFCXJL0Z8"
+ANALYTICS = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '%s');
+</script>""" % (GA_ID, GA_ID)
+
 TITLE = "Final Expense Insurance Quotes | Insure Motiv"
 DESCRIPTION = ("Compare final expense life insurance options and speak with a licensed "
                "agent. Insure Motiv connects consumers with participating insurance providers.")
@@ -114,8 +128,8 @@ if fonts:
 head_extra = (
     '\n<title>%s</title>'
     '\n<meta name="description" content="%s">'
-    '\n<meta name="robots" content="index, follow">%s\n'
-) % (TITLE, DESCRIPTION, hoisted)
+    '\n<meta name="robots" content="index, follow">%s%s\n'
+) % (TITLE, DESCRIPTION, hoisted, ANALYTICS)
 
 html = html.replace("</head>", head_extra + "</head>", 1)
 
@@ -137,3 +151,4 @@ print("\nindex.html  %.0f KB -> %.0f KB   (%d assets in assets/)"
 print("dropped %d unreferenced script(s), %.0f KB decoded"
       % (len(dead), sum(len(decoded[u]) for u in dead) / 1024))
 print("removed %d dead font-host preconnect(s)" % n_pre)
+print("Google Analytics %s installed" % GA_ID)
