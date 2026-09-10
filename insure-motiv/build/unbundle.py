@@ -106,9 +106,38 @@ for uid in dead:
           % (names[uid], manifest[uid]["mime"], len(decoded[uid]) / 1024))
 
 # ------------------------------------------------------------ rewrite ----
+# Asset paths are relative, not root-absolute. A root-absolute "/assets/..."
+# only resolves when this folder is itself the web root, so opening index.html
+# from disk, or serving it from a parent folder, sends the browser to a root
+# with no assets/ - the images vanish and, worse, the image-slot component
+# never loads, so the slots collapse to zero height.
 html = template
 for uid in live:
-    html = html.replace(uid, "/assets/" + names[uid])
+    html = html.replace(uid, "assets/" + names[uid])
+
+# The footer links Privacy Policy and Terms of Service to #privacy and #terms,
+# which are anchors to nothing - the bundle shipped without those pages. They
+# are real pages now (build/gen.py), so the links point at them.
+for anchor, page in (("#privacy", "privacy-policy.html"), ("#terms", "terms-of-use.html")):
+    html, n = re.subn('href="%s"' % anchor, 'href="%s"' % page, html)
+    if not n:
+        raise SystemExit("expected the dead %s anchor in the bundle" % anchor)
+    print("linked %d %s reference(s) to %s" % (n, anchor, page))
+
+# The footer is the Window Motiv global footer, forked (build/fork_footer.py)
+# so the layout matches the other Motiv sites: brand and call to action in a
+# primary band, then the disclosure with copyright and legal links beneath.
+# The bundle's own footer is replaced wholesale.
+FOOTER = os.path.join(HERE, "_footer.html")
+if not os.path.isfile(FOOTER):
+    raise SystemExit("run build/fork_footer.py first - _footer.html is missing")
+footer = io.open(FOOTER, encoding="utf-8").read().rstrip("\n")
+
+bundled_footer = re.search(r"^  <footer [\s\S]*?^  </footer>\n", html, re.M)
+if not bundled_footer:
+    raise SystemExit("could not find the bundle's footer to replace")
+html = html[:bundled_footer.start()] + footer + "\n" + html[bundled_footer.end():]
+print("footer replaced with the forked Window Motiv component")
 
 # Fonts are self-hosted now, so preconnecting to Google's font hosts only costs
 # two DNS + TLS handshakes that are never used.
@@ -121,7 +150,7 @@ html, n_pre = re.subn(r'\s*<link rel="preconnect" href="https://fonts\.g[^"]*"[^
 fonts = re.search(r"<helmet>\s*(<style>[\s\S]*?</style>)", html)
 hoisted = ""
 if fonts:
-    first = "/assets/" + names[next(u for u in live if manifest[u]["mime"] == "font/woff2")]
+    first = "assets/" + names[next(u for u in live if manifest[u]["mime"] == "font/woff2")]
     hoisted = ("\n" + fonts.group(1)
                + '\n<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' % first)
 
