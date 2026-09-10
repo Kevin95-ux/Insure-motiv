@@ -1,0 +1,450 @@
+:eyebrow Please read carefully
+:title TERMS OF USE
+:effective September 10, 2026
+:updated September 10, 2026
+:out terms-of-use.html
+:changelog TERMS OF USE - INSURE MOTIV\nVERSION: V1.0.0\nEFFECTIVE DATE: 2026-09-10\nLAST UPDATED: 2026-09-10\n\nCHANGE LOG\n------------------------------------------------------------------------------\nV1.0.0 | 2026-09-10\n- First Terms of Use for Insure Motiv. The site previously had none; the\n  footer linked a dead #terms anchor.\n- Adopted the 33-section Motiv plain-document Terms of Use already used by\n  Window Motiv and PestMotiv, in the same order, reworded for final expense\n  life insurance.\n- Replaced the contractor and home-improvement sections with insurance ones:\n  not a carrier, insurer, agency, or licensed producer; not affiliated with\n  Medicare, Medicaid, the SSA, or any state insurance department; coverage,\n  rates, and eligibility decided solely by the carrier's underwriting.\n- Uses the Insure Motiv navy and teal palette.\n\nENTITY - NEEDS CLIENT CONFIRMATION\n------------------------------------------------------------------------------\nindex.html never names a legal entity for Insure Motiv. This document\nfollows the PestMotiv pattern: a DBA of Leads Motiv, LLC, a subsidiary of\nMotiv Brands, Inc. Confirm before publication; change ENTITY in\nbuild/adapt_sources.py and re-run if it differs.\n\nSOURCE OF TRUTH\n------------------------------------------------------------------------------\nEdit build/src/<name>.txt and run:  python build/gen.py build/src/*.txt\nDo not hand-edit the generated file.\n\nIMPORTANT LEGAL REVIEW\n------------------------------------------------------------------------------\nInsurance is a regulated vertical and this document must be reviewed and\napproved by qualified legal counsel before publication, including the state\nprivacy rights, California, sale/sharing, data-retention, arbitration, and\ninsurance-disclaimer sections.
+
+These Terms of Use ("Terms") govern your access to and use of websites, landing pages, forms, telephone services, digital properties, and other consumer-facing services operated by Motiv Brands, Inc., Leads Motiv, LLC, and their controlled subsidiaries and affiliated consumer-facing brands (collectively, "Motiv," "we," "us," or "our").
+
+Insure Motiv is a consumer-facing marketing brand and DBA of Leads Motiv, LLC, a subsidiary of Motiv Brands, Inc.
+
+Leads Motiv, LLC is the primary entity through which many of Motiv's consumer-facing marketing brands and DBAs are used for lead-generation activities. A current list of Motiv subsidiaries, brands, and DBAs is available through our Brands, Affiliates, and Marketing Partners Disclosure.
+
+These Terms apply to all Motiv consumer-facing brands and Services unless a particular website or Service provides supplemental or different terms that expressly apply to that Service.
+
+H2 IMPORTANT NOTICE REGARDING ARBITRATION
+
+NOTE THESE TERMS CONTAIN A BINDING ARBITRATION AGREEMENT, CLASS-ACTION WAIVER, AND JURY-TRIAL WAIVER IN SECTION 18.
+
+Except for certain disputes described below, you and Motiv agree that disputes between us will be resolved through individual binding arbitration rather than in court.
+
+Please read Section 18 carefully.
+
+H2 1. ACCEPTANCE OF THESE TERMS
+
+By accessing or using our websites or Services, you agree to comply with these Terms.
+
+More specifically, when you: submit a form; check a box indicating agreement; click a button accompanied by notice that continuing constitutes agreement to these Terms; request to be connected with a service provider; or otherwise affirmatively accept these Terms, you enter into a binding agreement with Motiv.
+
+If you do not agree to these Terms, do not submit a form or use the applicable Service.
+
+When these Terms are presented in connection with a form, the link to these Terms and any accompanying disclosure should be reviewed before you submit the form.
+
+H2 2. ELIGIBILITY
+
+Our consumer-facing Services are intended only for individuals who are 18 years of age or older and who are legally capable of entering into a binding agreement.
+
+By using a Service or submitting information to us, you represent that: you are at least 18 years old; the information you provide relates to you or another person for whom you are legally authorized to act; you are the owner of the property identified in your request or are otherwise authorized to request work on that property; you have legal capacity to agree to these Terms; and your use of the Services does not violate applicable law.
+
+We do not knowingly provide our consumer lead-generation Services to children.
+
+H2 3. ABOUT MOTIV AND OUR SERVICES
+
+Motiv operates consumer-facing brands designed to help individuals obtain information, evaluate service options, determine potential eligibility, request quotes or consultations, and connect with service providers.
+
+Depending on the Service, Motiv may: provide information; operate forms or questionnaires; conduct preliminary qualification screening; match consumers with service providers; route requests to available providers; facilitate communications; provide certain services directly; or refer consumers to independent third-party providers.
+
+Insure Motiv is used for marketing, consumer education, lead generation, quote requests, provider matching, and related commercial activities involving final expense life insurance and related insurance products.
+
+Motiv operates a lead-generation business and may receive compensation when a consumer is successfully connected with a service provider.
+
+Consumers are generally not charged by Motiv for using our lead-generation or matching Services.
+
+Any fees charged by an independent provider are governed by the separate agreement, if any, between you and that provider.
+
+H2 4. CONSUMER-REQUESTED REFERRALS
+
+When you submit a request to be connected with a service provider, you are asking Motiv to use the information you provide to identify and connect you with a provider capable of responding to the specific service you requested.
+
+Motiv may use automated routing, matching, qualification, ping/post, provider-availability, or bidding systems to determine an appropriate provider.
+
+Limited information may be processed through these systems or shared with prospective providers to determine matters such as: geographic availability; service eligibility; provider capacity; service type; qualification criteria; provider interest; or routing economics.
+
+The completed consumer lead is intended to be delivered exclusively to one selected service provider for the service requested, unless we clearly disclose otherwise.
+
+Our agreements generally prohibit the selected provider from reselling or redistributing a Motiv lead to another lead buyer.
+
+A current list of companies that may receive consumer leads is available through our Marketing Partners Disclosure.
+
+H2 5. NO GUARANTEE OF MATCH, ELIGIBILITY, OR RESULTS
+
+Submitting a form does not guarantee that: you qualify for any product, program, benefit, coverage, quote, rate, or other opportunity; a provider will accept your request; a provider will contact you; a provider will offer services; any quote or price will be available; any particular price or rate will be offered; any coverage will be issued; an application will be approved; a provider will achieve a particular result; or a transaction will ultimately occur.
+
+Any eligibility information displayed by Motiv is preliminary and informational unless expressly stated otherwise.
+
+Final eligibility, premium, underwriting outcome, product availability, policy issuance, policy terms, and other decisions are made by the applicable provider or responsible third party.
+
+H2 6. INDEPENDENT THIRD-PARTY PROVIDERS
+
+Unless expressly stated otherwise, service providers identified through our Services are independent third parties and are not employees, agents, representatives, joint venturers, or partners of Motiv.
+
+Motiv does not control how an independent provider performs its services.
+
+Although we may establish contractual, quality, licensing, compliance, or other requirements for participating providers, we do not guarantee any provider's: licensing status; certification; bonding; insurance coverage; professional qualifications; availability; pricing; underwriting or claims handling; advice; representations; financial condition; regulatory compliance; or performance.
+
+You are responsible for evaluating a provider before entering into a transaction or agreement with that provider.
+
+Any contract for products or services entered into between you and a provider is solely between you and that provider unless Motiv is expressly identified as a contracting party.
+
+H2 7. NO PROFESSIONAL ADVICE
+
+Content provided through Motiv Services is for general informational and lead-matching purposes.
+
+Unless expressly stated otherwise, Motiv does not provide: legal advice; financial advice; tax advice; investment advice; insurance advice; insurance, tax, legal, or financial advice; a recommendation of any particular policy; or other licensed professional advice.
+
+Information provided through questionnaires, qualification tools, articles, advertisements, website content, or communications should not be treated as a substitute for advice from an appropriately qualified professional.
+
+H3 No Insurance Agency or Advisory Relationship
+
+Insure Motiv is not an insurance carrier, insurer, underwriter, insurance agency, or licensed insurance producer.
+
+Your use of a Motiv website, completion of a form, or communication with Motiv does not create an agent-client, broker-client, insurer-insured, or advisory relationship between you and Motiv, and does not create an application for, or a contract of, insurance.
+
+An independent provider to whom you are referred may be a licensed insurance agent, agency, or carrier. Any professional or contractual relationship with such a provider arises only under the terms separately established between you and that provider, and any policy is issued solely by the carrier.
+
+H2 8. INSURE MOTIV AND INSURANCE SERVICES
+
+Insure Motiv is a private marketing and lead-generation service that helps connect consumers with licensed insurance agents and providers.
+
+Insure Motiv, Leads Motiv, LLC, Motiv Brands, Inc., and their affiliates:
+
+- do not sell, solicit, negotiate, underwrite, issue, service, or administer insurance policies, and do not pay, adjudicate, or adjust claims;
+
+- are not a licensed insurance producer, agency, or carrier in any jurisdiction;
+
+- are not affiliated with Medicare, Medicaid, the Social Security Administration, any state insurance department, or any other government agency or program;
+
+- are not endorsed, sponsored, or approved by any government agency, insurance regulator, or carrier; and
+
+- cannot guarantee the availability, premium, underwriting outcome, issuance, terms, or claim treatment of any policy or promotional offer.
+
+Coverage, rates, eligibility, and availability vary by provider, state, age, and health, and are determined solely by the applicable carrier under its own underwriting rules.
+
+Submitting information through Insure Motiv is not the same as applying for insurance, being approved for coverage, or being issued a policy.
+
+Any qualification indication provided through Insure Motiv is preliminary and is not a binding quote, rate, offer of coverage, or approval.
+
+You may contact a licensed insurance agent or carrier directly without using Insure Motiv.
+
+Use of Insure Motiv does not guarantee that you will be contacted, receive a quote, qualify for coverage, be approved by any carrier, obtain any particular premium, or achieve any particular outcome.
+
+Nothing on an Insure Motiv website is an offer of insurance, a solicitation in any state where a product is not available, or insurance, tax, legal, or financial advice.
+
+H2 9. OTHER GOVERNMENT AND INSURANCE DISCLAIMERS
+
+Unless a particular Service expressly states otherwise, Motiv and its consumer-facing brands are private businesses and are not government agencies.
+
+The appearance of a government program, benefit, insurance category, or regulated service on one of our websites does not mean that Motiv is affiliated with or endorsed by the applicable government agency, insurer, carrier, regulator, or program administrator.
+
+Where a particular brand operates in a regulated industry, additional brand-specific disclosures may apply.
+
+H2 10. COMMUNICATIONS
+
+When you request information or submit a form, you may ask Motiv and/or a selected provider to contact you regarding your request.
+
+Communications may include telephone calls, text messages, email, or other communications, depending on the authorization you provide.
+
+Certain forms may separately request consent for communications involving:
+
+- automated dialing technology;
+
+- predictive dialing technology;
+
+- SMS or MMS;
+
+- prerecorded voice;
+
+- artificial or AI-generated voice;
+
+- voicemail technology; or
+
+- other regulated communications technology.
+
+These Terms do not independently create consent to receive telemarketing calls, marketing text messages, prerecorded calls, artificial-voice calls, or other communications for which separate consent is legally required.
+
+The specific disclosure and consent presented when you submit a form controls the scope of any communications authorization you provide.
+
+Where required by law, consent to receive automated, prerecorded, artificial-voice, or marketing communications is not a condition of purchasing goods or services.
+
+H2 11. MOTIV MARKETING
+
+Subject to applicable law and your communications choices, Motiv may contact you regarding other services offered by Motiv or its affiliated consumer-facing brands.
+
+A provider receiving your lead is expected to use that lead for the specific service request for which the provider received it unless another use has been separately disclosed and authorized.
+
+Motiv does not authorize a selected provider to independently resell your lead or use a Motiv lead for unrelated lead-generation purposes.
+
+Motiv does not use your specific Insure Motiv coverage or eligibility questionnaire responses to determine unrelated cross-brand marketing offers.
+
+You may exercise available marketing opt-out rights as described in our [Privacy Policy](privacy-policy.html) and applicable communications.
+
+H2 12. ACCURACY OF INFORMATION YOU PROVIDE
+
+You agree to provide information that is accurate, current, and truthful to the best of your knowledge.
+
+You may not knowingly: submit false information; impersonate another person; provide another person's contact information without authorization; misrepresent ownership of or authority over a property; fabricate qualification information; submit fraudulent service requests; intentionally generate false leads; manipulate form responses to obtain a particular result; submit information for harassment or malicious purposes; or use our forms for testing, competitive intelligence, scraping, or unauthorized commercial purposes.
+
+We may reject, suppress, investigate, or delete submissions that we reasonably believe are fraudulent, unauthorized, abusive, duplicated, automated, or otherwise inconsistent with these Terms.
+
+H2 13. PROHIBITED USES
+
+You may use the Services only for lawful personal purposes.
+
+Unless we provide prior written authorization, you may not: scrape, crawl, spider, harvest, index, or systematically extract content or data from our Services; use bots, scripts, automated agents, or similar tools to access or submit our forms; submit fake, fabricated, duplicate, or fraudulent leads; reverse engineer, decompile, disassemble, or attempt to derive the source code of our software; circumvent technical, security, rate-limiting, fraud-prevention, or access controls; probe, scan, or test our systems for vulnerabilities; interfere with website operation or infrastructure; introduce malicious code, malware, or harmful technology; harvest consumer or provider information; reproduce or commercially exploit our form flows, questionnaires, scoring models, routing logic, or conversion processes; copy our landing pages, advertisements, designs, brand assets, or proprietary content for commercial use; use our Services to benchmark, train, develop, or improve a competing product, lead-generation system, machine-learning model, or artificial-intelligence system without written authorization; falsely represent an affiliation with Motiv; use our trademarks or brands without permission; use the Services in a manner that violates another person's rights; submit information in violation of privacy, communications, telemarketing, consumer-protection, or other applicable law; or assist another person in doing any of the foregoing.
+
+Motiv reserves all rights and remedies available for unauthorized scraping, automated access, fraudulent lead generation, theft of proprietary content, and interference with our Services.
+
+H2 14. INTELLECTUAL PROPERTY
+
+The Services and their contents are owned by or licensed to Motiv and are protected by applicable intellectual-property laws.
+
+This includes, without limitation: brand names; logos; trademarks; website designs; graphics; photographs; videos; advertisements; written content; questionnaires; form designs; selection and arrangement of questions; software; databases; routing methodologies; proprietary business processes; and other original materials.
+
+Subject to these Terms, Motiv grants you a limited, revocable, non-exclusive, non-transferable license to access and use the Services for your own lawful personal use.
+
+No ownership interest is transferred to you.
+
+You may not reproduce, modify, distribute, sell, license, publicly display, commercially exploit, or create derivative works from Motiv content without prior written permission, except where applicable law expressly permits such activity.
+
+H2 15. TRADEMARKS
+
+"Motiv," "Motiv Brands," "Leads Motiv," "Insure Motiv," and the names, logos, slogans, designs, and trade dress associated with Motiv consumer brands are trademarks or other brand identifiers owned by or licensed to Motiv.
+
+Nothing in these Terms grants you a license to use those marks.
+
+Use of a Motiv brand name in metadata, paid-search advertising, domain names, social-media identifiers, competitor advertising, or other commercial materials without authorization may violate our rights.
+
+Third-party brand names, including the names of participating licensed insurance agents and carriers, are the property of their respective owners and are used for identification purposes only.
+
+H2 16. THIRD-PARTY WEBSITES AND SERVICES
+
+Our Services may contain links to or integrations with websites, tools, applications, or services operated by third parties.
+
+Motiv does not control those third parties and is not responsible for their independent: content; availability; security; privacy practices; terms; representations; products; or services.
+
+Your interactions with a third party are governed by your relationship with that third party.
+
+A link or referral does not necessarily constitute an endorsement.
+
+H2 17. PRIVACY
+
+Our collection and processing of personal information are described in our [Privacy Policy](privacy-policy.html).
+
+By using the Services, you acknowledge that you have access to these privacy disclosures.
+
+The Privacy Policy does not independently create communications consent, and communications consent language presented at the point of collection does not eliminate rights provided under applicable privacy law.
+
+H2 18. DISPUTE RESOLUTION, BINDING ARBITRATION, AND CLASS-ACTION WAIVER
+
+NOTE PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS.
+
+H3 A. Informal Resolution First
+
+Before initiating arbitration or litigation, you and Motiv agree to make a reasonable good-faith attempt to resolve the dispute informally.
+
+A consumer must send a written Notice of Dispute to:
+
+ADDR Motiv Brands
+ADDR Attn: Legal Department
+ADDR 1621 Central Ave #8227
+ADDR Cheyenne, WY 82001
+
+or:
+
+ADDR privacy@motivbrands.co
+
+The Notice of Dispute should include: your name; your contact information; a description of the dispute; the facts giving rise to the dispute; and the relief requested.
+
+If Motiv has a dispute with you, we will send a Notice of Dispute using reasonably available contact information.
+
+The parties will have 30 days after receipt of the Notice of Dispute to attempt to resolve the matter before either party initiates arbitration, except where immediate injunctive relief is reasonably necessary.
+
+H3 B. Agreement to Arbitrate
+
+Except for disputes expressly excluded below, you and Motiv agree that any dispute, claim, or controversy arising out of or relating to: these Terms; our Privacy Policy; your use of the Services; a form submission; communications with Motiv; a consumer lead; a referral or provider match; advertising relating to the Services; the collection or processing of information; telephone calls or text messages; any relationship between you and Motiv; or the interpretation, enforceability, formation, scope, or validity of this arbitration agreement, will be resolved through final and binding individual arbitration rather than in court.
+
+The arbitration agreement is intended to be interpreted broadly.
+
+H3 C. Federal Arbitration Act
+
+The parties acknowledge that the Services involve interstate commerce.
+
+The Federal Arbitration Act ("FAA"), 9 U.S.C. §§ 1–16, governs the interpretation and enforcement of this arbitration agreement.
+
+To the extent state law applies to issues not governed by the FAA, Wyoming law will apply without regard to conflict-of-law principles, except where applicable law requires otherwise.
+
+H3 D. Arbitration Administrator
+
+Unless the parties mutually agree otherwise, arbitration will be administered by the American Arbitration Association ("AAA") under the applicable AAA Consumer Arbitration Rules in effect when the arbitration is initiated.
+
+If AAA is unavailable or unwilling to administer the arbitration, the parties will attempt in good faith to select another nationally recognized arbitration provider. If they cannot agree, a court of competent jurisdiction may appoint an arbitration provider or arbitrator consistent with the FAA.
+
+H3 E. Location and Format
+
+Where applicable consumer arbitration rules require, the arbitration may occur: remotely; by telephone or videoconference; based on written submissions; or in or reasonably near the county where you reside. The arbitrator may conduct proceedings in another manner if the parties agree.
+
+H3 F. Arbitration Authority
+
+The arbitrator may award any remedy or relief that would otherwise be available to the individual claimant under applicable law, subject to the limitations of this arbitration agreement.
+
+The arbitrator will apply applicable substantive law and applicable statutes of limitation.
+
+The arbitrator must issue an individual decision and may not award relief to persons who are not parties to the arbitration.
+
+H3 G. INDIVIDUAL ARBITRATION ONLY — CLASS-ACTION WAIVER
+
+NOTE YOU AND MOTIV AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY.
+
+To the fullest extent permitted by law: claims may not be brought as a plaintiff or class member in a class action; claims may not be brought as part of a collective action; claims may not be brought as part of a representative action; claims of multiple individuals may not be consolidated without the written agreement of all parties; the arbitrator may not preside over a class, collective, consolidated, coordinated, or representative proceeding; and the arbitrator may award relief only to the individual party seeking relief and only to the extent necessary to resolve that individual party's claim.
+
+H3 H. JURY-TRIAL WAIVER
+
+NOTE TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AND MOTIV EACH WAIVE THE RIGHT TO A TRIAL BY JURY FOR ANY CLAIM SUBJECT TO THIS ARBITRATION AGREEMENT.
+
+H3 I. Small-Claims Court
+
+Either party may bring an individual claim in a court of competent jurisdiction that qualifies as small-claims court, provided the claim remains individual and within that court's jurisdiction.
+
+If a claim originally filed in small-claims court is transferred, removed, or appealed to another court, either party may elect arbitration where permitted by law.
+
+H3 J. Intellectual-Property and Unauthorized-Access Claims
+
+Notwithstanding the arbitration agreement, either party may seek temporary, preliminary, or other appropriate injunctive relief in a court of competent jurisdiction to prevent or stop: infringement or misuse of intellectual property; unauthorized access to computer systems; scraping; hacking; malicious attacks; theft of confidential information; or similar conduct that could cause immediate or irreparable harm. Seeking such relief does not waive arbitration of other claims.
+
+H3 K. Government Enforcement
+
+Nothing in these Terms prevents you from reporting a matter to or communicating with a governmental or regulatory agency.
+
+Nothing in this arbitration agreement limits the lawful authority of a government agency to investigate or bring an enforcement action.
+
+H3 L. 30-Day Right to Opt Out of Arbitration
+
+You may opt out of this arbitration agreement by sending written notice within 30 days after the date you first affirmatively agree to these Terms.
+
+Your notice must include: your full name; the email address or telephone number associated with your interaction with Motiv; a statement that you wish to opt out of the arbitration agreement in the Motiv Terms of Use; and the date of your request.
+
+Send the request to:
+
+ADDR privacy@motivbrands.co
+
+with the subject line:
+
+ADDR ARBITRATION OPT-OUT
+
+or mail it to:
+
+ADDR Motiv Brands
+ADDR Attn: Arbitration Opt-Out
+ADDR 1621 Central Ave #8227
+ADDR Cheyenne, WY 82001
+
+Opting out of arbitration will not affect your ability to use the Services.
+
+An arbitration opt-out applies only to the arbitration agreement and does not cancel or revoke any separate communications consent. Communications consent may be revoked using the methods identified in the applicable disclosure.
+
+H3 M. Severability
+
+Except as provided below, if any portion of this arbitration agreement is found unenforceable, that portion will be severed and the remaining provisions will remain in effect to the fullest extent permitted by law.
+
+If the prohibition against class, collective, or representative arbitration is found unenforceable with respect to a particular claim or request for relief and that determination cannot lawfully be severed, then that claim or request for relief will proceed in a court of competent jurisdiction rather than class or representative arbitration.
+
+The remaining arbitrable claims will remain subject to individual arbitration to the extent permitted by law.
+
+H2 19. GOVERNING LAW
+
+Except for the arbitration agreement, which is governed by the Federal Arbitration Act as described above, these Terms and any dispute not subject to arbitration are governed by the laws of the State of Wyoming, without regard to conflict-of-law principles, except where applicable consumer law requires otherwise.
+
+H2 20. VENUE FOR NON-ARBITRABLE DISPUTES
+
+To the extent a dispute is not required to be arbitrated and is not eligible for small-claims court, you and Motiv agree that the dispute will be brought in a state or federal court with appropriate jurisdiction located in or serving Laramie County, Wyoming, except where applicable law prohibits or limits such a venue requirement.
+
+You and Motiv consent to personal jurisdiction in those courts for such disputes.
+
+H2 21. DISCLAIMER OF WARRANTIES
+
+NOTE TO THE FULLEST EXTENT PERMITTED BY LAW, THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE."
+
+NOTE MOTIV DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF: MERCHANTABILITY; FITNESS FOR A PARTICULAR PURPOSE; TITLE; NON-INFRINGEMENT; ACCURACY; AVAILABILITY; AND RESULTS.
+
+We do not warrant that: the Services will always be available; information will always be complete or error-free; forms will always function without interruption; a provider will respond; a provider will meet your expectations; you will qualify for any coverage, product, or premium; or use of the Services will achieve any particular result. Some jurisdictions do not allow certain warranty exclusions, so some of these exclusions may not apply to you.
+
+H2 22. LIMITATION OF LIABILITY
+
+NOTE TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, MOTIV AND ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AND AGENTS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING FROM OR RELATING TO THE SERVICES.
+
+This includes, where permitted by law, damages relating to: loss of data; loss of opportunity; loss of profits; decisions made by independent providers; provider conduct; coverage decisions; underwriting outcomes; claim handling by a carrier; website interruption; unauthorized third-party conduct; or reliance on general informational content.
+
+NOTE TO THE FULLEST EXTENT PERMITTED BY LAW, MOTIV'S AGGREGATE LIABILITY ARISING FROM OR RELATING TO YOUR USE OF A FREE CONSUMER LEAD-GENERATION SERVICE WILL NOT EXCEED $100, UNLESS APPLICABLE LAW REQUIRES A GREATER AMOUNT OR PROHIBITS SUCH A LIMITATION.
+
+Nothing in these Terms excludes liability that cannot legally be excluded or limited.
+
+H2 23. INDEMNIFICATION
+
+To the fullest extent permitted by law, you agree to indemnify and hold harmless Motiv and its parents, subsidiaries, affiliates, officers, directors, employees, contractors, and agents from claims, liabilities, damages, losses, and reasonable costs arising from your: fraudulent use of the Services; unauthorized submission of another person's information; submission of a request for a property you are not authorized to act for; violation of these Terms; infringement of another person's rights; malicious interference with our systems; or unlawful commercial exploitation of our Services.
+
+This provision does not require a consumer to indemnify Motiv for Motiv's own unlawful conduct and will apply only to the extent permitted by applicable law.
+
+H2 24. SUSPENSION AND TERMINATION
+
+We may suspend, restrict, or terminate access to the Services where we reasonably believe a user: violated these Terms; submitted fraudulent or abusive information; attacked or interfered with our systems; used automated access without authorization; infringed our rights; or created legal, security, or operational risk.
+
+We may also modify or discontinue a Service at any time.
+
+Provisions that by their nature should survive termination will survive, including provisions concerning intellectual property, disclaimers, limitation of liability, indemnification, dispute resolution, and governing law.
+
+H2 25. CHANGES TO THE SERVICES
+
+We may: add or remove Services; launch new brands; discontinue brands; modify website features; change questionnaires; change participating providers; modify matching processes; or update technology.
+
+The availability of a particular provider, brand, program, offer, or Service may change without notice.
+
+H2 26. CHANGES TO THESE TERMS
+
+We may update these Terms from time to time.
+
+When we do, we will update the Last Updated date at the top of the Terms.
+
+If required by applicable law, we will provide additional notice or obtain renewed agreement before a material change becomes binding.
+
+The version of the Terms presented to and affirmatively accepted by you will be retained where reasonably appropriate for evidentiary and compliance purposes.
+
+H2 27. ELECTRONIC RECORDS AND SIGNATURES
+
+Where you take an electronic action indicating agreement, you agree that: the action may constitute your electronic signature; electronic records may be used to document the transaction; your electronic acceptance may have the same legal effect as a handwritten signature to the extent permitted by law; and Motiv may retain evidence of your electronic interaction, including date, time, IP address, webpage, disclosure version, checkbox state, consent certificate, and related records.
+
+This provision does not expand the scope of any separate communications consent.
+
+H2 28. ASSIGNMENT
+
+You may not assign your rights or obligations under these Terms without our prior written consent.
+
+Motiv may assign these Terms in connection with: a corporate reorganization; merger; acquisition; sale of assets; financing; transfer of a business or brand; or transfer among affiliated companies, subject to applicable law.
+
+H2 29. SEVERABILITY
+
+Except where Section 18 provides a more specific severability rule, if any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permitted by law and the remaining provisions will remain in effect.
+
+H2 30. NO WAIVER
+
+A failure by Motiv to enforce a provision of these Terms does not waive our right to enforce that provision or another provision later.
+
+H2 31. ENTIRE AGREEMENT
+
+These Terms, together with our: Privacy Policy; Brands, Affiliates, and Marketing Partners Disclosure; form-specific disclosures; communications-consent disclosures; and any supplemental terms expressly applicable to a particular Service, constitute the applicable agreement between you and Motiv concerning your use of the Services.
+
+If a form-specific disclosure conflicts with these general Terms regarding the scope of a particular authorization or consent, the more specific disclosure presented at the point of collection controls with respect to that authorization or consent.
+
+H2 32. CONTACT INFORMATION
+
+Questions concerning these Terms may be directed to:
+
+ADDR Motiv Brands
+ADDR 1621 Central Ave #8227
+ADDR Cheyenne, WY 82001
+ADDR Email: privacy@motivbrands.co
+ADDR Telephone: 877-674-6382
+
+A current list of Motiv consumer-facing brands and DBAs is available through our Brands, Affiliates, and Marketing Partners Disclosure.
+
+A current list of participating lead recipients is available through our Marketing Partners Disclosure.

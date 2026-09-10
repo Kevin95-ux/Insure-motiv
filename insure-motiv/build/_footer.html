@@ -1,0 +1,784 @@
+<div id="wm-global-footer" class="wmf-compact-root" data-wmf-version="IM-V1.0.0">
+  <style>
+    #wm-global-footer {
+      --wmf-navy-1100: #0b2340;
+      --wmf-navy-1050: #0e2a4a;
+      --wmf-navy-1000: #12304F;
+      --wmf-navy-950: #1a3d61;
+      --wmf-blue-700: #0A574E;
+      --wmf-blue-600: #A8D8CF;
+      --wmf-blue-100: #dcefe9;
+      --wmf-orange-700: #0A574E;
+      --wmf-orange-600: #0D6E63;
+      --wmf-orange-500: #12857a;
+      --wmf-white: #ffffff;
+      --wmf-text: #dfe8ef;
+      --wmf-muted: #a8b8c4;
+      --wmf-line: rgba(255, 255, 255, 0.16);
+      --wmf-focus: 0 0 0 4px rgba(168, 216, 207, 0.35);
+      --wmf-transition: 180ms ease;
+
+      display: block !important;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      clear: both;
+      overflow: hidden;
+      color: var(--wmf-white);
+      background:
+        radial-gradient(circle at 95% 0,
+          rgba(13, 110, 99, 0.20),
+          transparent 32%),
+        linear-gradient(145deg,
+          var(--wmf-navy-1000),
+          var(--wmf-navy-1100));
+      font-family:
+        "Public Sans",
+        Arial,
+        Helvetica,
+        sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      text-align: left;
+      visibility: visible !important;
+      opacity: 1 !important;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #wm-global-footer,
+    #wm-global-footer *,
+    #wm-global-footer *::before,
+    #wm-global-footer *::after {
+      box-sizing: border-box;
+    }
+
+    #wm-global-footer a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    #wm-global-footer button {
+      font: inherit;
+    }
+
+    #wm-global-footer svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    #wm-global-footer .wmf-container {
+      width: min(100%, 1600px);
+      margin: 0 auto;
+      padding-right: clamp(18px, 4vw, 64px);
+      padding-left: clamp(18px, 4vw, 64px);
+    }
+
+    /* TOP ROW */
+    #wm-global-footer .wmf-primary {
+      border-top: 4px solid var(--wmf-blue-600);
+      border-bottom: 1px solid var(--wmf-line);
+    }
+
+    #wm-global-footer .wmf-primary-inner {
+      display: grid;
+      /* brand | Start My Project. The middle menu column is gone. */
+      grid-template-columns:
+        minmax(0, 1fr) auto;
+      align-items: center;
+      gap: clamp(26px, 4vw, 64px);
+      padding-top: clamp(30px, 4vw, 48px);
+      padding-bottom: clamp(30px, 4vw, 48px);
+    }
+
+    /* BRAND */
+    #wm-global-footer .wmf-brand-link {
+      display: inline-flex;
+      width: fit-content;
+      max-width: 100%;
+      align-items: center;
+      gap: 13px;
+      border-radius: 14px;
+    }
+
+    #wm-global-footer .wmf-brand-link:focus-visible {
+      outline: none;
+      box-shadow: var(--wmf-focus);
+    }
+
+    #wm-global-footer .wmf-logo {
+      display: grid;
+      position: relative;
+      width: 54px;
+      height: 54px;
+      flex: 0 0 54px;
+      place-items: center;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 15px;
+      color: var(--wmf-white);
+      background:
+        linear-gradient(145deg,
+          var(--wmf-blue-700),
+          var(--wmf-blue-600));
+      box-shadow: 0 14px 30px rgba(0, 72, 132, 0.28);
+    }
+
+    #wm-global-footer .wmf-logo::after {
+      position: absolute;
+      right: -7px;
+      bottom: -7px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--wmf-orange-500);
+      content: "";
+    }
+
+    #wm-global-footer .wmf-logo svg {
+      position: relative;
+      z-index: 1;
+      width: 29px;
+      height: 29px;
+    }
+
+    #wm-global-footer .wmf-brand-copy {
+      display: block;
+      min-width: 0;
+    }
+
+    #wm-global-footer .wmf-brand-name {
+      display: block;
+      color: var(--wmf-white);
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+      font-size: clamp(26px, 2.3vw, 34px);
+      font-weight: 600;
+      line-height: 1;
+      letter-spacing: -0.045em;
+      white-space: nowrap;
+    }
+
+    #wm-global-footer .wmf-brand-name strong {
+      color: var(--wmf-blue-600);
+      font-weight: inherit;
+    }
+
+    #wm-global-footer .wmf-brand-tagline {
+      display: block;
+      margin-top: 4px;
+      color: #b9cedc;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+
+    /* NAVIGATION */
+    #wm-global-footer .wmf-navigation {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 8px 22px;
+    }
+
+    #wm-global-footer .wmf-nav-link {
+      position: relative;
+      display: inline-flex;
+      min-height: 38px;
+      align-items: center;
+      border-radius: 8px;
+      color: #b6cad7;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.3;
+      white-space: nowrap;
+      transition:
+        color var(--wmf-transition),
+        transform var(--wmf-transition);
+    }
+
+    #wm-global-footer .wmf-nav-link::after {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      left: 0;
+      height: 2px;
+      border-radius: 999px;
+      background:
+        linear-gradient(90deg,
+          var(--wmf-blue-600),
+          var(--wmf-orange-500));
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform var(--wmf-transition);
+      content: "";
+    }
+
+    #wm-global-footer .wmf-nav-link:hover,
+    #wm-global-footer .wmf-nav-link.wmf-active {
+      color: var(--wmf-white);
+      transform: translateY(-1px);
+    }
+
+    #wm-global-footer .wmf-nav-link:hover::after,
+    #wm-global-footer .wmf-nav-link.wmf-active::after {
+      transform: scaleX(1);
+    }
+
+    #wm-global-footer .wmf-nav-link:focus-visible {
+      outline: none;
+      box-shadow: var(--wmf-focus);
+    }
+
+    /* CTA */
+    #wm-global-footer .wmf-survey-button {
+      display: inline-flex;
+      min-height: 52px;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px 18px;
+      border: 1px solid transparent;
+      border-radius: 13px;
+      cursor: pointer;
+      color: var(--wmf-white);
+      background:
+        linear-gradient(135deg,
+          var(--wmf-orange-600),
+          var(--wmf-orange-500));
+      box-shadow: 0 13px 28px rgba(189, 75, 24, 0.27);
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1.2;
+      white-space: nowrap;
+      transition:
+        transform var(--wmf-transition),
+        box-shadow var(--wmf-transition),
+        background var(--wmf-transition);
+    }
+
+    #wm-global-footer .wmf-survey-button:hover {
+      transform: translateY(-2px);
+      background:
+        linear-gradient(135deg,
+          var(--wmf-orange-700),
+          var(--wmf-orange-600));
+      box-shadow: 0 17px 34px rgba(189, 75, 24, 0.34);
+    }
+
+    #wm-global-footer .wmf-survey-button:focus-visible {
+      outline: none;
+      box-shadow:
+        var(--wmf-focus),
+        0 13px 28px rgba(189, 75, 24, 0.27);
+    }
+
+    #wm-global-footer .wmf-survey-button svg {
+      width: 17px;
+      height: 17px;
+      flex: 0 0 17px;
+    }
+
+    /* DISCLOSURE ROW */
+    #wm-global-footer .wmf-secondary {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    #wm-global-footer .wmf-secondary-inner {
+      display: grid;
+      grid-template-columns:
+        minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 24px;
+    }
+
+    #wm-global-footer .wmf-disclosure {
+      max-width: 1100px;
+      margin: 0;
+      color: var(--wmf-muted);
+      font-size: 10px;
+      line-height: 1.65;
+    }
+
+    #wm-global-footer .wmf-disclosure strong {
+      color: #dce9f1;
+    }
+
+    #wm-global-footer .wmf-bottom-meta {
+      display: grid;
+      justify-items: end;
+      gap: 6px;
+    }
+
+    #wm-global-footer .wmf-copyright {
+      margin: 0;
+      color: #849bab;
+      font-size: 10px;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+
+    #wm-global-footer .wmf-legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px 14px;
+    }
+
+    #wm-global-footer .wmf-legal-link {
+      border-radius: 5px;
+      color: #9cb1c0;
+      font-size: 10px;
+      font-weight: 800;
+      transition: color var(--wmf-transition);
+    }
+
+    #wm-global-footer .wmf-legal-link:hover,
+    #wm-global-footer .wmf-legal-link.wmf-active {
+      color: var(--wmf-white);
+    }
+
+    #wm-global-footer .wmf-legal-link:focus-visible {
+      outline: none;
+      box-shadow: var(--wmf-focus);
+    }
+
+    @media (max-width: 1050px) {
+      #wm-global-footer .wmf-primary-inner {
+        grid-template-columns:
+          minmax(250px, 1fr) auto;
+      }
+
+      #wm-global-footer .wmf-navigation {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        justify-content: flex-start;
+        padding-top: 2px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      #wm-global-footer .wmf-primary-inner {
+        grid-template-columns:
+          minmax(0, 1fr) auto;
+        gap: 22px 16px;
+      }
+
+      #wm-global-footer .wmf-brand-tagline {
+        white-space: normal;
+      }
+
+      #wm-global-footer .wmf-navigation {
+        display: grid;
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+        width: 100%;
+        gap: 4px 16px;
+      }
+
+      #wm-global-footer .wmf-nav-link {
+        width: fit-content;
+      }
+
+      #wm-global-footer .wmf-secondary-inner {
+        grid-template-columns: 1fr;
+      }
+
+      #wm-global-footer .wmf-bottom-meta {
+        justify-items: start;
+      }
+
+      #wm-global-footer .wmf-legal-links {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 520px) {
+      #wm-global-footer .wmf-container {
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+
+      #wm-global-footer .wmf-primary-inner {
+        grid-template-columns: 1fr;
+        padding-top: 28px;
+        padding-bottom: 28px;
+      }
+
+      #wm-global-footer .wmf-survey-button {
+        width: 100%;
+      }
+
+      #wm-global-footer .wmf-navigation {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+
+      #wm-global-footer .wmf-nav-link {
+        min-height: 34px;
+      }
+
+      #wm-global-footer .wmf-logo {
+        width: 49px;
+        height: 49px;
+        flex-basis: 49px;
+      }
+
+      #wm-global-footer .wmf-brand-name {
+        font-size: 25px;
+      }
+
+      #wm-global-footer .wmf-secondary {
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+
+      #wm-global-footer .wmf-copyright {
+        white-space: normal;
+      }
+    }
+
+    @media print {
+
+      #wm-global-footer .wmf-navigation,
+      #wm-global-footer .wmf-survey-button,
+      #wm-global-footer .wmf-legal-links {
+        display: none !important;
+      }
+
+      #wm-global-footer {
+        color: #000000;
+        background: #ffffff;
+      }
+
+      #wm-global-footer .wmf-primary {
+        border-color: #777777;
+      }
+
+      #wm-global-footer .wmf-brand-name,
+      #wm-global-footer .wmf-disclosure strong {
+        color: #000000;
+      }
+
+      #wm-global-footer .wmf-disclosure,
+      #wm-global-footer .wmf-copyright {
+        color: #000000;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      #wm-global-footer *,
+      #wm-global-footer *::before,
+      #wm-global-footer *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    /* The header's brand tile, reversed for the navy ground. The base
+       .wmf-logo is sized for an SVG; this one holds two letters. */
+    #wm-global-footer .wmf-logo--mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 13px;
+      background: var(--wmf-white);
+      color: var(--wmf-navy-1000);
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    #wm-global-footer .wmf-logo--mark::after {
+      display: none;
+    }
+
+    #wm-global-footer .wmf-brand-name {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 22px;
+      letter-spacing: -0.4px;
+    }
+
+    /* The phone sits beside the CTA, as it does in the header. */
+    #wm-global-footer .wmf-cta-group {
+      display: flex;
+      align-items: center;
+      gap: clamp(14px, 3vw, 26px);
+      flex-wrap: wrap;
+    }
+
+    #wm-global-footer .wmf-phone {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    #wm-global-footer .wmf-phone-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      color: var(--wmf-muted);
+    }
+
+    #wm-global-footer .wmf-phone-number {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--wmf-white);
+    }
+
+    #wm-global-footer .wmf-brand-block {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      min-width: 0;
+    }
+
+    /* The left column is tall now, so the CTA sits level with the logo row
+       instead of floating at its vertical centre. */
+    #wm-global-footer .wmf-primary-inner {
+      align-items: start;
+    }
+
+    #wm-global-footer .wmf-brand-disclosure {
+      margin: 0;
+      /* No width cap: the brand column is the 1fr of "minmax(0, 1fr) auto", so
+         the paragraph runs to where the call to action begins. Capping it left
+         a wide empty gap. */
+      color: var(--wmf-muted);
+      font-size: 12.5px;
+      line-height: 1.75;
+    }
+
+    #wm-global-footer .wmf-brand-disclosure a {
+      color: var(--wmf-white);
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+
+    #wm-global-footer .wmf-disclosure a {
+      color: var(--wmf-white);
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+
+    @media (max-width: 60rem) {
+      #wm-global-footer .wmf-cta-group {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  </style>
+
+  <div class="wmf-primary">
+    <div class="wmf-container">
+      <div class="wmf-primary-inner">
+        <div class="wmf-brand-block">
+          <a class="wmf-brand-link" href="index.html" data-wmf-nav-link
+            aria-label="Insure Motiv home">
+            <span class="wmf-logo wmf-logo--mark" aria-hidden="true">IM</span>
+  
+            <span class="wmf-brand-copy">
+              <span class="wmf-brand-name">
+                Insure<strong> Motiv</strong>
+              </span>
+  
+              <span class="wmf-brand-tagline">
+                Final expense coverage
+              </span>
+            </span>
+          </a>
+
+          <p class="wmf-brand-disclosure">
+            Insure Motiv is not an insurance carrier. Insure Motiv is a marketing
+            service that helps connect consumers with licensed insurance agents
+            and providers. Coverage, rates, eligibility, and availability vary by
+            provider, state, age, and health. Insure Motiv is not affiliated with
+            Medicare, Social Security, or any government agency. By submitting
+            your information, you agree to be contacted by Insure Motiv, including
+            by phone, text, or AI-generated voice message, using the contact
+            information provided, even if your number is on a Do Not Call list.
+            Consent is not a condition of purchase. Message and data rates may
+            apply. See our
+            <a href="privacy-policy.html" data-wmf-nav-link>Privacy Policy</a> and
+            <a href="terms-of-use.html" data-wmf-nav-link>Terms of Use</a> for
+            more information.
+          </p>
+        </div>
+
+        <div class="wmf-cta-group">
+          <a class="wmf-phone" href="tel:18005550123">
+            <span class="wmf-phone-label">Talk to a licensed agent</span>
+            <span class="wmf-phone-number">(800) 555-0123</span>
+          </a>
+
+          <a class="wmf-survey-button" href="index.html#quote"
+            data-cta-page="global-footer" data-cta-section="compact-footer"
+            data-cta-name="get-your-free-quote">
+            Get Your Free Quote
+
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12h14M14 7l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wmf-secondary">
+    <div class="wmf-container">
+      <div class="wmf-secondary-inner">
+        <p class="wmf-disclosure">
+          <strong>Insure Motiv disclosure:</strong>
+          Insure Motiv is a DBA of Leads Motiv, LLC. Insure Motiv connects
+          consumers with participating licensed insurance agents and carriers.
+          By submitting a request, you agree to our
+          <a href="terms-of-use.html" data-wmf-nav-link>Terms of Use</a> and
+          acknowledge our
+          <a href="privacy-policy.html" data-wmf-nav-link>Privacy Policy</a>.
+          Your information may be shared with participating providers and
+          marketing partners as described in our Privacy Policy.
+        </p>
+
+        <div class="wmf-bottom-meta">
+          <p class="wmf-copyright">
+            © <span data-wmf-year>2026</span> Insure Motiv. All rights reserved.
+          </p>
+
+          <nav class="wmf-legal-links" aria-label="Insure Motiv legal links">
+            <a class="wmf-legal-link" href="privacy-policy.html" data-wmf-nav-link>
+              Privacy Policy
+            </a>
+
+            <a class="wmf-legal-link" href="terms-of-use.html" data-wmf-nav-link>
+              Terms of Use
+            </a>
+
+            </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var root =
+        document.getElementById("wm-global-footer");
+
+      if (!root) {
+        return;
+      }
+
+      if (
+        root.getAttribute("data-wmf-initialized") ===
+        "true"
+      ) {
+        return;
+      }
+
+      root.setAttribute(
+        "data-wmf-initialized",
+        "true"
+      );
+
+      var CONFIG = {
+        version:
+          "IM-V1.0.0",
+
+        homeUrl:
+          "/"
+      };
+
+      function setCurrentYear() {
+        var nodes =
+          root.querySelectorAll(
+            "[data-wmf-year]"
+          );
+
+        var year =
+          String(
+            new Date().getFullYear()
+          );
+
+        var index;
+
+        for (
+          index = 0;
+          index < nodes.length;
+          index += 1
+        ) {
+          nodes[index].textContent =
+            year;
+        }
+      }
+
+      function normalizePath(value) {
+        var anchor =
+          document.createElement("a");
+
+        anchor.href = value;
+
+        return (
+          anchor.pathname.replace(/\/+$/, "") ||
+          "/"
+        );
+      }
+
+      function setActiveLinks() {
+        var currentPath =
+          normalizePath(
+            window.location.href
+          );
+
+        var links =
+          root.querySelectorAll(
+            "[data-wmf-nav-link]"
+          );
+
+        var index;
+
+        for (
+          index = 0;
+          index < links.length;
+          index += 1
+        ) {
+          var linkPath =
+            normalizePath(
+              links[index].getAttribute(
+                "href"
+              )
+            );
+
+          if (linkPath === currentPath) {
+            links[index].classList.add(
+              "wmf-active"
+            );
+
+            links[index].setAttribute(
+              "aria-current",
+              "page"
+            );
+          }
+        }
+      }
+
+      setCurrentYear();
+      setActiveLinks();
+    })();
+  </script>
+</div>

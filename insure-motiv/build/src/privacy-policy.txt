@@ -1,0 +1,395 @@
+:eyebrow Your information matters
+:title PRIVACY POLICY
+:effective September 10, 2026
+:updated September 10, 2026
+:out privacy-policy.html
+:changelog PRIVACY POLICY - INSURE MOTIV\nVERSION: V1.0.0\nEFFECTIVE DATE: 2026-09-10\nLAST UPDATED: 2026-09-10\n\nCHANGE LOG\n------------------------------------------------------------------------------\nV1.0.0 | 2026-09-10\n- First Privacy Policy for Insure Motiv. The site previously had none; the\n  footer linked a dead #privacy anchor.\n- Adopted the 22-section Motiv plain-document Privacy Policy already used by\n  Window Motiv and PestMotiv, in the same order, reworded for final expense\n  life insurance.\n- Replaced the property and project sections with coverage and eligibility\n  sections; the collected-data table now lists what the live form asks for.\n- States that Insure Motiv does not collect health information through its\n  lead forms, and that a licensed agent or carrier may ask separately under\n  their own privacy practices.\n- Uses the Insure Motiv navy and teal palette.\n\nENTITY - NEEDS CLIENT CONFIRMATION\n------------------------------------------------------------------------------\nindex.html never names a legal entity for Insure Motiv. This document\nfollows the PestMotiv pattern: a DBA of Leads Motiv, LLC, a subsidiary of\nMotiv Brands, Inc. Confirm before publication; change ENTITY in\nbuild/adapt_sources.py and re-run if it differs.\n\nSOURCE OF TRUTH\n------------------------------------------------------------------------------\nEdit build/src/<name>.txt and run:  python build/gen.py build/src/*.txt\nDo not hand-edit the generated file.\n\nIMPORTANT LEGAL REVIEW\n------------------------------------------------------------------------------\nInsurance is a regulated vertical and this document must be reviewed and\napproved by qualified legal counsel before publication, including the state\nprivacy rights, California, sale/sharing, data-retention, arbitration, and\ninsurance-disclaimer sections.
+
+This Privacy Policy explains how Motiv Brands, Inc., Leads Motiv, LLC, and their controlled subsidiaries and affiliated consumer-facing brands (collectively, "Motiv," "we," "us," or "our") collect, use, disclose, and otherwise process personal information.
+
+Insure Motiv is a consumer-facing marketing brand and DBA of Leads Motiv, LLC, a subsidiary of Motiv Brands, Inc.
+
+Motiv operates a network of consumer-facing websites, landing pages, forms, marketing brands, and related services. Leads Motiv, LLC is the primary entity through which many of Motiv's consumer-facing marketing brands and DBAs are used for lead generation. A current list of our subsidiaries, brands, and DBAs is available through our Brands, Affiliates, and Marketing Partners Disclosure.
+
+This Privacy Policy applies to information collected through our websites, landing pages, forms, telephone communications, text messages, emails, advertising interactions, and related services (collectively, the "Services").
+
+Not every Motiv brand collects every category of information described in this Policy. The information collected depends on the Service you request and the information you choose to provide.
+
+H2 1. OUR BUSINESS MODEL
+
+Motiv operates consumer-facing brands that help individuals request information, services, quotes, qualification reviews, consultations, or connections with service providers.
+
+Depending on the Service, we may: provide a service directly; help determine whether a consumer may qualify for or be interested in a particular service; match a consumer with an appropriate service provider; transmit a consumer's request to a selected service provider; facilitate communications between consumers and providers; or receive compensation in connection with a consumer-requested referral or lead.
+
+When we provide a lead to a third-party service provider, the completed lead is intended to be provided exclusively to one selected provider for the specific service requested by the consumer, unless we clearly disclose otherwise and obtain any required authorization.
+
+We may use automated routing, matching, ping/post, availability, or bidding technology to identify an appropriate provider. Limited information may therefore be processed through routing systems or prospective providers to determine eligibility, availability, geographic coverage, pricing, or fit before the completed lead is delivered to the selected provider.
+
+Our agreements generally prohibit a selected provider from reselling or redistributing a Motiv lead to another lead buyer.
+
+A current list of companies that may receive consumer leads is available through our Marketing Partners Disclosure.
+
+H2 2. INFORMATION WE COLLECT
+
+We collect information in several ways, including information you provide directly, information collected automatically when you interact with our Services, and information received from service providers, advertising partners, affiliates, and other third parties.
+
+H3 A. Information You Provide
+
+Depending on the Service, we may collect:
+
+RAW <div class="wl-table-scroll">
+RAW <table>
+RAW <thead>
+RAW <tr><th scope="col">Category</th><th scope="col">Examples</th></tr>
+RAW </thead>
+RAW <tbody>
+RAW <tr><td>Contact and identifying information</td><td>Name, email address, telephone number, mailing address, property address, state, ZIP code, and age</td></tr>
+RAW <tr><td>Demographic information</td><td>Age range and similar characteristics</td></tr>
+RAW <tr><td>Service-request information</td><td>Product or service requested, questionnaire responses, qualification information, preferences, and information necessary to match you with a provider</td></tr>
+RAW <tr><td>Eligibility information</td><td>Age or age range, state of residence, and whether you are requesting coverage for yourself or for another person</td></tr>
+RAW <tr><td>Coverage information</td><td>Type of coverage requested, approximate coverage amount, any existing coverage, and preferred contact timing</td></tr>
+RAW <tr><td>Premium information</td><td>Whether you are interested in a particular premium range or payment option, expressed as general budget categories rather than detailed financial records</td></tr>
+RAW <tr><td>Communications</td><td>Emails, text messages, telephone communications, customer-service inquiries, feedback, and other communications with us</td></tr>
+RAW </tbody>
+RAW </table>
+RAW </div>
+
+H3 B. Information Collected Automatically
+
+When you visit or interact with our Services, we and our technology providers may automatically collect: IP address; browser type; device type; operating system; device or advertising identifiers; pages viewed; links clicked; referral URLs; date and time of interactions; advertising attribution information; approximate geographic location derived from your IP address, state, or ZIP code; cookie and tracking technology identifiers; session and website interaction information; and information regarding how you arrived at and interacted with our Services.
+
+We do not collect GPS-based precise device location through our lead forms unless we separately disclose that practice.
+
+H3 C. Consent and Compliance Records
+
+When you submit a form, provide communications consent, or otherwise interact with our Services, we may preserve records demonstrating what you requested and what disclosures were presented to you.
+
+These records may include: date and time of submission; IP address; page or URL where the submission occurred; referring page or advertisement; browser and user-agent information; form responses; version of the form; exact disclosure language presented; checkbox selections; consent status; consent timestamp; applicable provider or partner information; TrustedForm or similar consent-certification records; revocation or opt-out records; and Do-Not-Call suppression information.
+
+We maintain these records for compliance, auditing, dispute resolution, fraud prevention, and evidence of consumer instructions and consent.
+
+H2 3. INFORMATION WE INTENTIONALLY DO NOT COLLECT
+
+Our lead-generation Services are designed to avoid collecting unnecessary highly sensitive information.
+
+Through our ordinary consumer lead forms, we do not intentionally request: Social Security numbers; bank account numbers; credit or debit card numbers; financial-account login credentials; detailed banking information; detailed financial records; credit reports or credit scores; government identification numbers; or health information.
+
+Where financing interest is relevant, we generally request a general budget or credit-range category rather than detailed financial records.
+
+Insure Motiv does not request medical, disability, or health information through its lead forms. A licensed agent or carrier may ask health questions separately, after you are connected; any such information is collected by that agent or carrier under their own privacy practices, not through Insure Motiv.
+
+H2 4. COVERAGE AND ELIGIBILITY INFORMATION
+
+Certain Insure Motiv Services request information regarding your property, your homeownership status, and the coverage you are considering.
+
+We collect coverage and eligibility information when it is reasonably necessary to: evaluate preliminary qualification criteria; respond to your request; identify an appropriate licensed insurance agent or carrier; confirm that a provider services your area; route your request to the selected provider; facilitate the service you requested; maintain evidence of your request and authorization; and comply with applicable law.
+
+State and ZIP code are used to determine where a product is available and which agents are licensed in your state. We do not use your address to derive precise device geolocation.
+
+We may use the fact that a person visited or interacted with the Insure Motiv website for ordinary site-level advertising or retargeting, subject to applicable privacy choices.
+
+Depending on where you live, some categories of information we collect may be considered personal information or sensitive data under applicable law. We process such information only as described in this Policy and as permitted by applicable law.
+
+H2 5. HOW WE USE PERSONAL INFORMATION
+
+We may use personal information to:
+
+H3 Provide the Service You Requested
+
+Including to: process a form submission; respond to an inquiry; determine preliminary qualification; provide requested information; match you with a provider; route a request; determine provider availability; transmit a lead to the selected provider; facilitate a requested quote, consultation, or connection with a licensed agent; and communicate with you concerning your request.
+
+H3 Operate and Improve Our Services
+
+Including to: maintain websites and forms; diagnose technical problems; improve user experience; analyze conversion performance; measure advertising effectiveness; perform attribution; test website and form designs; improve lead quality; develop new services; conduct analytics; and understand how consumers use our Services.
+
+H3 Communicate With You
+
+Depending on your choices and applicable law, we may communicate by: telephone; SMS; MMS; email; prerecorded voice; artificial or AI-generated voice; automated dialing technology; predictive dialing technology; voicemail; or other communications technology.
+
+The specific consent language presented when you submit a form controls the scope of any communications consent you provide.
+
+NOTE This Privacy Policy itself does not create consent to receive telemarketing calls, automated calls, prerecorded calls, artificial or AI-generated voice calls, or marketing text messages.
+
+Where required, such consent is requested separately.
+
+H3 Market Other Motiv Services
+
+Motiv may use ordinary contact and marketing information to tell you about other services offered through the Motiv family of brands, subject to applicable law and your communication preferences.
+
+A service provider receiving your lead is expected to use the lead to respond to the specific service request for which the provider received it. Motiv does not authorize a selected provider to use your lead for unrelated products or services unless that use has been separately disclosed and authorized.
+
+H3 Compliance and Protection
+
+We may use information to: maintain evidence of consent; maintain Do-Not-Call records; process opt-outs; investigate complaints; prevent fraud; detect abusive or fraudulent form submissions; protect our websites and systems; enforce agreements; respond to legal process; comply with regulatory obligations; and establish, exercise, or defend legal claims.
+
+H2 6. HOW WE DISCLOSE PERSONAL INFORMATION
+
+We may disclose personal information to the following categories of recipients.
+
+H3 A. Selected Service Providers
+
+When you request to be connected with a provider, we may disclose information reasonably necessary to fulfill your request to the selected provider.
+
+For Insure Motiv, providers may include companies or professionals offering: final expense and burial insurance; whole and term life insurance; guaranteed-issue and simplified-issue life policies; supplemental insurance products; annuities and related retirement products; or other services offered through current or future Motiv brands.
+
+The specific types of providers depend on the service you request.
+
+Our current Marketing Partners Disclosure identifies companies that may receive consumer information through our lead-generation Services.
+
+H3 B. Lead Routing and Matching Providers
+
+We may disclose or process limited information through lead-routing, ping/post, matching, qualification, availability, or bidding systems in order to identify an appropriate provider.
+
+This processing may occur before the completed lead is delivered to the selected provider.
+
+H3 C. Technology and Operational Service Providers
+
+We may disclose information to companies that provide services such as: website hosting; cloud infrastructure; CRM systems; form technology; lead routing; consent certification; call tracking; telecommunications; email delivery; SMS delivery; analytics; fraud prevention; data security; customer support; legal and compliance support; and other business operations.
+
+These providers may process information on our behalf or, in some cases, for their own purposes as permitted by applicable law and their agreements with us.
+
+H3 D. Advertising, Analytics, and Measurement Partners
+
+We use advertising and analytics technologies to measure performance, attribute conversions, understand website usage, and advertise our Services.
+
+These technologies may collect or receive: cookie identifiers; device identifiers; IP addresses; browsing activity; advertisement interactions; conversion events; approximate location; hashed or pseudonymized identifiers where applicable; and other digital activity information.
+
+We may use advertising platforms, analytics providers, affiliate tracking technologies, call-tracking services, identity-resolution technologies, and similar tools.
+
+H3 E. Identity Resolution Providers
+
+We may use identity-resolution and attribution services that help associate website or device interactions with likely consumer, household, contact, or marketing information.
+
+We may use this information for: attribution; marketing measurement; fraud prevention; audience management; understanding advertising performance; and other lawful marketing or operational purposes.
+
+These activities are subject to applicable opt-out rights.
+
+H3 F. Affiliates
+
+We may disclose information within the Motiv corporate family, including Motiv Brands, Inc., Leads Motiv, LLC, controlled subsidiaries, and the consumer-facing brands they operate, when reasonably necessary to operate our Services, respond to requests, administer consumer rights, perform analytics, maintain compliance, or market Motiv services as permitted by law.
+
+H3 G. Legal, Safety, and Compliance Disclosures
+
+We may disclose information when we reasonably believe necessary to: comply with law; respond to subpoenas, court orders, or governmental requests; protect consumers; investigate fraud; protect our rights or property; enforce agreements; address security incidents; or establish, exercise, or defend legal claims.
+
+H3 H. Corporate Transactions
+
+If Motiv or any portion of its business is involved in a merger, acquisition, financing, restructuring, bankruptcy, sale of assets, or similar transaction, personal information may be transferred as part of that transaction, subject to applicable law.
+
+H2 7. COMPENSATED REFERRALS, "SALE," AND "SHARING"
+
+Motiv is a lead-generation business and may receive compensation when we successfully connect a consumer with a service provider.
+
+We may therefore disclose or transfer personal information to a selected provider in connection with the service you requested, and Motiv may receive compensation in connection with that referral.
+
+Certain state privacy laws define terms such as "sell," "sale," or "sharing" more broadly than those terms are commonly used. As a result, certain compensated disclosures or advertising activities described in this Policy may be treated as a sale or sharing of personal information under applicable law.
+
+We do not interpret the word "sale" to mean that consumers themselves are purchasing anything from Motiv. Our consumer lead-generation Services are generally provided without charge to the consumer.
+
+Depending on applicable law: a consumer-requested disclosure to a provider may be exempt from certain sale definitions; a compensated referral may nevertheless be treated as a sale; disclosure of online identifiers for cross-context behavioral or targeted advertising may constitute sharing or targeted advertising; and consumers may have rights to opt out of these activities.
+
+Where required, we provide a Your Privacy Choices mechanism through which eligible consumers may exercise applicable opt-out rights.
+
+We also honor recognized browser-based universal opt-out preference signals, including Global Privacy Control, where required by applicable law.
+
+An opt-out does not necessarily apply to a disclosure that you intentionally direct us to make in order to fulfill a service request where applicable law excludes that disclosure from the definition of sale or sharing.
+
+H2 8. COOKIES, PIXELS, AND TRACKING TECHNOLOGIES
+
+We and third parties may use: cookies; pixels; tags; software development kits; local storage; analytics technologies; conversion tracking; affiliate tracking; identity-resolution technologies; call-tracking technologies; and similar technologies.
+
+These technologies may be used to: remember preferences; operate websites; measure visits; understand traffic sources; attribute conversions; measure advertising campaigns; prevent fraud; improve performance; personalize marketing; and conduct targeted or cross-context behavioral advertising where permitted.
+
+Depending on applicable law, you may be able to control certain technologies through our cookie or privacy controls, your browser settings, Global Privacy Control, or our Your Privacy Choices mechanism.
+
+Browser-based "Do Not Track" signals do not have a uniform legal or technical standard. We honor legally recognized universal opt-out mechanisms where required.
+
+H2 9. CALL RECORDINGS, TRANSCRIPTS, AND AI-ASSISTED TOOLS
+
+Telephone calls with Motiv may be monitored or recorded for purposes such as: quality assurance; customer service; compliance; fraud prevention; dispute resolution; employee or agent training; performance analysis; and business analytics.
+
+Where required by law, appropriate recording disclosures or consent will be provided.
+
+We may generate transcripts, summaries, classifications, or analyses of communications using automated or artificial-intelligence-assisted technologies.
+
+Such tools may be used to assist with: transcription; summarization; quality assurance; agent coaching; compliance review; routing; analytics; fraud detection; and operational improvement.
+
+We will provide any additional disclosure or obtain any additional consent required by applicable law if our use of artificial intelligence materially changes.
+
+Calls handled directly by a selected third-party provider may be subject to that provider's independent recording, privacy, and AI practices.
+
+H2 10. YOUR COMMUNICATION CHOICES
+
+H3 Text Messages
+
+You may opt out of marketing text messages by replying STOP or by following the instructions included in the message.
+
+H3 Email
+
+You may unsubscribe from marketing emails by using the unsubscribe mechanism included in the email.
+
+H3 Telephone Calls
+
+You may request that we stop marketing calls by contacting us using the information below.
+
+We maintain an internal Do-Not-Call suppression process and communicate applicable revocation or suppression requests to relevant providers when necessary.
+
+A request to stop marketing communications does not prevent us from sending communications that are reasonably necessary to: process a privacy request; confirm an opt-out; address a security issue; comply with law; or complete another transaction or communication you specifically request.
+
+H2 11. TELEPHONE AND TEXT CONSENT
+
+Certain forms may separately ask for consent to communications using technologies regulated under telephone or telemarketing laws.
+
+Where applicable, the form disclosure will identify: the companies authorized to communicate; the telephone number or other contact information covered; the types of communications authorized; whether automated technology may be used; whether prerecorded or artificial voice technology may be used; whether text messaging may be used; and how consent may be revoked.
+
+Where required by law, consent to receive automated, prerecorded, artificial-voice, or marketing communications will not be required as a condition of purchasing goods or services.
+
+The communications consent displayed at the point of collection governs and should be read carefully before you submit a form.
+
+H2 12. DATA RETENTION
+
+We retain information only for as long as reasonably necessary for the purposes described in this Policy, subject to legal, operational, contractual, and compliance requirements.
+
+Our general retention framework is:
+
+- Ordinary lead records: generally up to 24 months after the last relevant activity;
+
+- Telemarketing and communications-consent evidence: generally at least 5 years where maintained for legal or compliance purposes;
+
+- Call and communications records: for the period reasonably necessary for compliance, quality assurance, dispute resolution, and applicable recordkeeping requirements;
+
+- Opt-out and Do-Not-Call records: we may retain a limited suppression record for longer periods so that we can continue honoring your request; and
+
+- Other information: for as long as reasonably necessary for the purpose collected or as required by law.
+
+When information is no longer reasonably necessary, we may delete, de-identify, aggregate, or otherwise dispose of it.
+
+A deletion request may therefore result in deletion of the underlying lead while we retain limited information necessary to document and continue honoring a Do-Not-Call, opt-out, fraud-prevention, or legal-compliance request.
+
+H2 13. DATA SECURITY
+
+We maintain administrative, technical, and organizational safeguards designed to protect personal information against unauthorized access, loss, misuse, alteration, or disclosure.
+
+No website, network, database, or transmission method can be guaranteed to be completely secure. You should therefore use reasonable care when providing information online.
+
+H2 14. THIRD-PARTY SERVICE PROVIDERS AND WEBSITES
+
+After we connect you with a third-party provider, that provider may collect, use, retain, or disclose your information according to its own privacy policy and legal obligations.
+
+Motiv does not control the independent privacy practices of third-party providers.
+
+Our websites may also contain links to third-party websites or services. This Privacy Policy does not apply to information collected independently by those third parties.
+
+We encourage you to review a provider's privacy policy before providing additional information directly to that provider.
+
+H2 15. U.S. STATE PRIVACY RIGHTS
+
+Depending on your state of residence and whether the applicable law applies to Motiv or the particular processing activity, you may have rights regarding your personal information.
+
+These rights may include the right to: confirm whether we process your personal information; access personal information; obtain a copy of personal information; correct inaccurate personal information; delete personal information; obtain portable personal information; opt out of the sale of personal information; opt out of sharing for cross-context behavioral advertising; opt out of targeted advertising; opt out of certain profiling; limit certain uses of sensitive personal information; withdraw consent for certain sensitive-data processing; appeal certain decisions regarding a privacy request; and receive equal service without unlawful discrimination for exercising a privacy right. The exact rights available to you depend on applicable law.
+
+H3 Exercising Your Rights
+
+You may submit a privacy request by:
+
+ADDR Email: privacy@motivbrands.co
+ADDR Telephone: 877-674-6382
+ADDR Online: through the Your Privacy Choices link available on applicable Motiv websites.
+
+You may also write to:
+
+ADDR Motiv Brands
+ADDR 1621 Central Ave #8227
+ADDR Cheyenne, WY 82001
+
+Please describe the right you wish to exercise and provide enough information for us to locate the relevant records.
+
+H3 Verification
+
+For certain requests, we may need to verify your identity before responding. We will request only information reasonably necessary to complete the verification.
+
+H3 Authorized Agents
+
+Where permitted by law, you may designate an authorized agent to submit a request on your behalf. We may request evidence that the agent has authority to act for you and may ask you to verify your identity directly.
+
+H3 Appeals
+
+If applicable state law gives you the right to appeal our response to a privacy request, you may submit an appeal using the same contact information above and clearly identify the request as a Privacy Appeal.
+
+H3 Non-Discrimination
+
+We will not unlawfully discriminate against you because you exercise an applicable privacy right.
+
+H2 16. GLOBAL PRIVACY CONTROL AND UNIVERSAL OPT-OUT SIGNALS
+
+Where required by law, Motiv recognizes qualifying browser-based universal opt-out preference signals, including Global Privacy Control ("GPC").
+
+When we receive a legally recognized signal, we process it as an opt-out request for the browser or device from which the signal is sent to the extent required by applicable law.
+
+If you use multiple browsers or devices, you may need to enable the signal on each browser or device.
+
+Where technically and legally appropriate, you may provide additional identifying information through our privacy-choice mechanism if you would like us to associate a browser-based preference with a broader consumer record.
+
+H2 17. ADDITIONAL CALIFORNIA PRIVACY DISCLOSURES
+
+This section applies to California residents to the extent the California Consumer Privacy Act, as amended, applies to the relevant processing.
+
+During the preceding 12 months, we may have collected the categories of personal information described in this Privacy Policy, including: identifiers; customer-record information; protected or demographic characteristics; commercial or service-request information; internet or electronic-network activity; approximate geolocation information; coverage and eligibility information; sensitive personal information where applicable; audio or communications information; and inferences derived from certain information.
+
+We collect these categories from the sources described in this Policy and use them for the business and commercial purposes described above.
+
+We may disclose these categories to: selected service providers; lead-routing and matching providers; operational service providers; advertising and analytics partners; identity-resolution providers; affiliates; and legal or governmental recipients where appropriate.
+
+Certain compensated lead referrals may constitute a sale of personal information under applicable law, and certain digital advertising activities may constitute sharing of personal information for cross-context behavioral advertising.
+
+Categories potentially sold in connection with consumer-requested referrals may include: identifiers and contact information; service-request information; coverage and eligibility information; homeownership status; demographic or qualification information; general budget or financing-interest information; insurance-related information; and other information reasonably necessary to fulfill the requested referral.
+
+Categories potentially shared for cross-context behavioral advertising may include: online identifiers; IP address; device information; browsing or interaction information; advertising interactions; approximate location; and related marketing or attribution information.
+
+We do not knowingly sell or share personal information of consumers under 18 years of age.
+
+California residents may exercise applicable rights through the methods described in Section 15 and through our Your Privacy Choices mechanism.
+
+H2 18. SENSITIVE PERSONAL INFORMATION
+
+Where applicable law provides special protections for sensitive personal information or sensitive data, we process such information only for disclosed purposes and subject to applicable consent, limitation, or opt-out rights.
+
+Depending on the Service and applicable law, sensitive information may include certain: precise geolocation information, if ever collected; government identifiers, if ever collected; account credentials, if ever collected; or other information defined as sensitive by applicable law.
+
+As explained above, our ordinary lead-generation forms are designed not to request Social Security numbers, financial-account credentials, credit reports, health information, or other unnecessary highly sensitive information.
+
+H2 19. CHILDREN AND MINORS
+
+Our Services are intended for adults 18 years of age or older.
+
+We do not knowingly operate our lead-generation Services for children or knowingly collect personal information from children through those Services.
+
+If we learn that a minor has provided personal information in violation of this Policy, we may delete the information as appropriate.
+
+If you believe a minor has submitted information to us, please contact us at privacy@motivbrands.co.
+
+H2 20. U.S.-BASED SERVICES
+
+Our consumer-facing Services are intended for individuals located in the United States.
+
+If you access our Services from outside the United States, you understand that information may be processed in the United States and other locations where our service providers operate, subject to applicable law.
+
+H2 21. CHANGES TO THIS PRIVACY POLICY
+
+We may update this Privacy Policy from time to time to reflect changes in: our Services; our brands; our technology; our data practices; applicable law; or other business or legal requirements.
+
+When we make changes, we will update the Last Updated date above.
+
+If required by law, we will provide additional notice or obtain consent before applying a material change to previously collected information.
+
+H2 22. CONTACT US
+
+Questions about this Privacy Policy or our privacy practices may be directed to:
+
+ADDR Motiv Brands
+ADDR 1621 Central Ave #8227
+ADDR Cheyenne, WY 82001
+ADDR Privacy Email: privacy@motivbrands.co
+ADDR Telephone: 877-674-6382
+
+You may also use the privacy-choice tools available on our websites to exercise applicable privacy rights.
